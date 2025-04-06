@@ -1,0 +1,11 @@
+1. Create a folder for a project (in this case its "hello_test")
+2. Inside the folder, create a file to work on Go (in this case filename is "main.go")
+3. Write the code. In Go we need to initiate "main" package 1st
+4. Then we use "fmt" function which is called for proper formatting
+5. Finally we write our logic in the main function
+6. Now once the code is complete, we need to open terminal and cd into the folder location (here its "cd .\hello_test\")
+7. Here we need to create a module for our code to work. Preferably the module is of same name as the folder using command "go mod init <module name>" (here its "go mod init hello")
+8. Once the module is created, we can save our code and run it using command "go run main.go" or "go run ."
+9. We can also create binany of our work using command "go build .". This will create a .exe file with same name as the folder where all this is done
+10. We can run this binany using command "./<binayname.exe>" (here its "./hello.exe").
+11. This binary helps us to run code smoothly afterwards.
